@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/imagen00"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextNumber1"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:hint="Número 1"
+        android:inputType="numberDecimal"
+        android:textAlignment="inherit"
+        android:textAllCaps="false"
+        android:textColor="#F1EDED"
+        android:textColorHint="#EDE9E9" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Número 2"
+        android:inputType="numberDecimal"
+        android:textColor="#EFE6E6"
+        android:textColorHint="#EFE7E7" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:backgroundTint="#17D4E3D5"
+        android:fontFamily="serif"
+        android:text="Sumar"
+        android:textAllCaps="false"
+        android:textIsSelectable="false"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/buttonSubtract"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#17D4E3D5"
+        android:fontFamily="serif"
+        android:text="Restar"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/buttonMultiply"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#17D4E3D5"
+        android:fontFamily="serif"
+        android:text="Multiplicar"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/buttonDivide"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#17D4E3D5"
+        android:fontFamily="serif"
+        android:text="Dividir"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#17D4E3D5"
+        android:fontFamily="serif"
+        android:text="Potencia"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNumber1"
+        android:backgroundTint="#17D4E3D5"
+        android:fontFamily="serif"
+        android:text="Fibonacci"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#17D4E3D5"
+        android:fontFamily="serif"
+        android:text="Factorial"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="376dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#EDE7E7"
+        android:hint="Resultado"
+        android:text=""
+        android:textColor="#EFEAEA"
+        android:textColorHint="#F3ECEC"
+        android:textSize="25sp" />
+
+    <ScrollView
+        android:layout_width="379dp"
+        android:layout_height="114dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewFibo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Resul-fibonacci"
+                android:textAlignment="center"
+                android:textColor="#F3EDED"
+                android:textColorHint="#F6F2F2"></TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
